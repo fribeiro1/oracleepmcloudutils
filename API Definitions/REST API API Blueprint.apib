@@ -1,0 +1,3041 @@
+FORMAT: 1A
+HOST: https://host
+
+# REST API
+
+This is a sample definition of the Oracle EPM Cloud REST API.
+
+The views expressed here are my own and do not necessarily reflect the views of Oracle.
+
+# Group Account Reconciliation
+
+## GET /armARCS/rest
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /armARCS/rest/V1
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /armARCS/rest/V1/jobs
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /armARCS/rest/V1/jobs/{job_id}
+
++ Parameters
+
+    + id
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Data Management
+
+## GET /aif/rest
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /aif/rest/V1
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /aif/rest/V1/jobs
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Enterprise Data Management
+
+## GET /epm/rest/v1/applications{?q}
+
++ Parameters
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/applications/{applicationId}/connections
+
++ Parameters
+
+    + applicationId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/export/connection
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/export/download
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/import/file
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/import/connection
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/mapping/export/connection
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/dimensions/{dimensionId}/mapping/export/download
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/dimensions/{dimensionId}/mappings
+
++ Parameters
+
+    + dimensionId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/files/temp/{fileId}
+
++ Parameters
+
+    + fileId
+
+    + fileName (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/files/temp
+
++ Request (multipart/form-data)
+
+    + Body
+
+            {
+            }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/jobRuns/{jobRunId}
+
++ Parameters
+
+    + jobRunId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 303 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/jobRuns/{jobRunId}/result
+
++ Parameters
+
+    + jobRunId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/requests
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/requests/{requestId}/import
+
++ Parameters
+
+    + requestId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 413 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 415 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/requests/{requestId}
+
++ Parameters
+
+    + requestId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/requests/{requestId}/transitions
+
++ Parameters
+
+    + requestId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/requests/{requestId}/attachments/importFile
+
++ Parameters
+
+    + requestId
+
++ Request (multipart/form-data)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/views{?q}
+
++ Parameters
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/views/{viewId}/viewpoints{?expand,q}
+
++ Parameters
+
+    + viewId
+
+    + expand (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/views/{viewId}/viewpoints/{viewpointId}/nodes/{nodeId}/locations/{location}{?expand,q}
+
++ Parameters
+
+    + viewId
+
+    + viewpointId
+
+    + nodeId
+
+    + location
+
+    + expand (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/views/{viewId}/viewpoints/{viewpointId}/nodes{?expand,fromId,limit,offset,orderBy,q,toId}
+
++ Parameters
+
+    + viewId
+
+    + viewpointId
+
+    + expand (optional)
+
+    + fromId (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
+    + toId (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/views/{viewId}/viewpoints/{viewpointId}/nodes/{nodeId}{?expand,q}
+
++ Parameters
+
+    + viewId
+
+    + viewpointId
+
+    + nodeId
+
+    + expand (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/views/{viewId}/viewpoints/{viewpointId}/nodes/search
+
++ Parameters
+
+    + viewId
+
+    + viewpointId
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 202 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Financial Consolidation and Close
+
+## GET /HyperionPlanning/rest
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/fcmjobs
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/journals{?q,offset,limit}
+
++ Parameters
+
+    + application
+
+    + q (optional)
+
+    + offset (optional)
+
+    + limit (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/journals/{journalLabel}{?q,lineItems}
+
++ Parameters
+
+    + application
+
+    + journalLabel
+
+    + q (optional)
+
+    + lineItems (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/journals/{journalLabel}/actions
+
++ Parameters
+
+    + application
+
+    + journalLabel
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/journalPeriods/{period}/actions
+
++ Parameters
+
+    + application
+
+    + period
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Migration
+
+## GET /interop/rest
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /interop/rest/11.1.2.3.600
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /interop/rest/11.1.2.3.600/applicationsnapshots
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /interop/rest/11.1.2.3.600/applicationsnapshots/{applicationSnapshotName}
+
++ Parameters
+
+    + applicationSnapshotName
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/11.1.2.3.600/applicationsnapshots/{applicationSnapshotName}/contents{?extDirPath}
+
++ Parameters
+
+    + applicationSnapshotName
+
+    + extDirPath (optional)
+
++ Request (application/octet-stream)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /interop/rest/v1/applicationsnapshots/{applicationSnapshotName}/contents
+
++ Parameters
+
+    + applicationSnapshotName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/octet-stream)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/v1/applicationsnapshots/{applicationSnapshotName}/contents{?q}
+
++ Parameters
+
+    + applicationSnapshotName
+
+    + q (optional)
+
++ Request (application/octet-stream)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# POST /interop/rest/11.1.2.3.600/applicationsnapshots/{applicationSnapshotName}/migration{?q}
+
++ Parameters
+
+    + applicationSnapshotName
+
+    + q (optional)
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /interop/rest/11.1.2.3.600/services
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /interop/rest/v1/services/dailymaintenance
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## PUT /interop/rest/v1/services/dailymaintenance{?StartTime}
+
++ Parameters
+
+    + StartTime
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## PUT /interop/rest/v1/services/encryptionkey
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/v1/services/maintenancewindow
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/v1/services/{service_type}/resetservice
+
++ Parameters
+
+    + service_type
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/11.1.2.3.600/services/{servicename}/recreate
+
++ Parameters
+
+    + servicename
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/v1/services/{servicename}/copysnapshot
+
++ Parameters
+
+    + servicename
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Narrative Reporting
+
+## GET /epm/rest/v1/artifacts{?fields,limit,offset,orderBy,q}
+
++ Parameters
+
+    + fields (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/artifacts/{id}{?expand,fields}
+
++ Parameters
+
+    + id
+
+    + expand (optional)
+
+    + fields (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/artifacts/{id}/children{?fields,limit,offset,orderBy,q}
+
++ Parameters
+
+    + id
+
+    + fields (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /rest/v1/files
+
++ Request (multipart/form-data)
+
+    + Body
+
+            {
+            }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /rest/v1/files/{fileId}
+
++ Parameters
+
+    + fileId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /rest/v1/jobs
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /rest/v1/jobs/{jobId}
+
++ Parameters
+
+    + jobId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportPackages{?fields,limit,offset,orderBy,q}
+
++ Parameters
+
+    + fields (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportPackages/{id}{?fields}
+
++ Parameters
+
+    + id
+
+    + fields (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportPackages/{id}/preview{?format}
+
++ Parameters
+
+    + id
+
+    + format
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportPackages/{id}/reportCenter{?format}
+
++ Parameters
+
+    + id
+
+    + format
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportSnapshots{?fields,limit,offset,orderBy,q}
+
++ Parameters
+
+    + fields (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportSnapshots/{id}{?fields}
+
++ Parameters
+
+    + id
+
+    + fields (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reportSnapshots/{id}/executedReport{?format}
+
++ Parameters
+
+    + id
+
+    + format
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 307 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reports{?fields,limit,offset,orderBy,q}
+
++ Parameters
+
+    + fields (optional)
+
+    + limit (optional)
+
+    + offset (optional)
+
+    + orderBy (optional)
+
+    + q (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reports/{id}{?fields}
+
++ Parameters
+
+    + id
+
+    + fields (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reports/{id}/executedReport{?format,globalPov,prompts}
+
++ Parameters
+
+    + id
+
+    + format
+
+    + globalPov (optional)
+
+    + prompts (optional)
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/pdf)
+
+    + Body
+
+            {
+            }
+
++ Response 307 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reports/{id}/globalPov
+
++ Parameters
+
+    + id
+    
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/reports/{id}/prompts
+
++ Parameters
+
+    + id
+    
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /epm/rest/v1/hvxReports
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## DELETE /epm/rest/v1/hvxReports/{id}
+
++ Parameters
+
+    + id
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/hvxReports/{id}/publish
+
++ Parameters
+
+    + id
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/v1/hvxReports/{id}/publishedContent
+
++ Parameters
+
+    + id
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/octet-stream)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/v1/hvxReports/{id}/sections{?networkUri,sectionName}
+
++ Parameters
+
+    + id
+
+    + networkUri
+
+    + sectionName
+
++ Request (multipart/form-data)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Planning
+
+## GET /HyperionPlanning/rest/v3/applications
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/dimensions/{dimname}/members
+
++ Parameters
+
+    + application
+
+    + dimname
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/dimensions/{dimname}/members/{member}
+
++ Parameters
+
+    + application
+
+    + dimname
+
+    + member
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/jobdefinitions
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/jobs
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/jobs/{jobIdentifier}
+
++ Parameters
+
+    + application
+
+    + jobIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/jobs/{jobIdentifier}/childjobs/{childJobIdentifier}/details
+
++ Parameters
+
+    + application
+
+    + jobIdentifier
+
+    + childJobIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/jobs/{jobIdentifier}/details
+
++ Parameters
+
+    + application
+
+    + jobIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /HyperionPlanning/rest/v3/applications/{application}/planningunits{?q,offset,limit}
+
++ Parameters
+
+    + application
+
+    + q
+
+    + offset
+
+    + limit
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/planningunits/{puhIdentifier}/actions
+
++ Parameters
+
+    + application
+
+    + puhIdentifier
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/planningunits/{puhIdentifier}/availableactions
+
++ Parameters
+
+    + application
+
+    + puhIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/planningunits/{puIdentifier}/promotionpath
+
++ Parameters
+
+    + application
+
+    + puhIdentifier
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/cleardataslice
+
++ Parameters
+
+    + application
+
+    + plantype
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/exportdataslice
+
++ Parameters
+
+    + application
+
+    + plantype
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/importdataslice
+
++ Parameters
+
+    + application
+
+    + plantype
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/substitutionvariables{?q}
+
++ Parameters
+
+    + application
+
+    + plantype
+
+    + q
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/substitutionvariables/CurrYear
+
++ Parameters
+
+    + application
+
+    + plantype
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/plantypes/{plantype}/substitutionvariables/MyPeriod{?q}
+
++ Parameters
+
+    + application
+
+    + plantype
+
+    + q
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/pufilters
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /HyperionPlanning/rest/v3/applications/{application}/substitutionvariables
+
++ Parameters
+
+    + application
+
+### GET
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/substitutionvariables/MyPeriod
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/userpreferences
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /HyperionPlanning/rest/v3/applications/{application}/users/{userId}/photo
+
++ Parameters
+
+    + application
+
+    + userId
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Profitability and Cost Management
+
+## GET /epm/rest
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/V1
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/exportQueryResultsJob
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/templateExportJob
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/templateImportJob
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/jobs/applyDataGrants
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/jobs/essbaseDataLoadJob
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/jobs/ledgerDeployCubeJob
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/jobs/mergeSlices
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/povs/{POV}/programDocumentationReport{?queryParameter}
+
++ Parameters
+
+    + application
+
+    + POV
+
+    + queryParameter
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/povs/{povGroupMember}/jobs/clearPOVJob
+
++ Parameters
+
+    + application
+
+    + povGroupMember
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/povs/{povGroupMember}/jobs/runLedgerCalculationJob
+
++ Parameters
+
+    + application
+
+    + povGroupMember
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/V1/applications/{application}/povs/{povGroupMember}/ruleBalance{?queryParameter}
+
++ Parameters
+
+    + application
+
+    + povGroupMember
+
+    + queryParameter
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/applications/{application}/povs/{srcPOVMemberGroup}/jobs/copyPOVJob/{destPOVMemberGroup}
+
++ Parameters
+
+    + application
+
+    + srcPOVMemberGroup
+
+    + destPOVMemberGroup
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## GET /epm/rest/V1/applications/jobs/checkTaskStatusJob/{processName}
+
++ Parameters
+
+    + processName
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/fileApplications/{application}
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/fileApplications/{application}/enableApplication
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /epm/rest/V1/fileApplications/{application}/updateDimension
+
++ Parameters
+
+    + application
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+# Group Security
+
+## PUT /interop/rest/security/v1/groups
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## POST /interop/rest/security/v1/roleassignmentreport
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+## /interop/rest/security/v1/users
+
+### DELETE
+
++ Request (application/json)
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### POST
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
+
+### PUT
+
++ Request (application/json)
+
+    + Body
+
+            {
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            }
